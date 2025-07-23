@@ -7,6 +7,7 @@ const path = require('path');
 const User = require('./models/users');
 
 const app = express();
+app.disable("x-powered-by");
 const PORT = process.env.PORT
 
 // Middleware
