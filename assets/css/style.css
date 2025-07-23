@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    font-family:'Courier New', Courier, monospace;
+}
+#login_form_container{
+    margin: 0px auto;
+    text-align: center;
+}
+
+#user_header{
+    text-align: center;
+}
+
+#user_header a{
+    word-spacing: 0.1rem;
+    font-size: medium;
+    color: red;
+    text-decoration: none;
+}
+
+#users_container{
+    text-align: center;
+}
+
+.view_button{
+    width: 100px;
+    display: inline-block;
+    background-color: #01c9a0;
+    color: white;
+    font-weight: 700;
+    border: 0px;
+    outline: none;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+}
+
+.edit_button{
+    width: 100px;
+    display: inline-block;
+    background-color: #9282bb;
+    color: white;
+    font-weight: 700;
+    border: 0px;
+    outline: none;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+}
+
+.delete_button{
+    width: 100px;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+}
+
+#btn_submit{
+    width: 100px;
+    display: inline-block;
+    background-color: #c5721a;
+    color: white;
+    font-weight: 700;
+    border: 0px;
+    outline: none;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,20 @@
+#header{
+    background-color: #dadada;
+    display: flex;
+    margin:auto;
+    justify-content: center;
+}
+
+#header img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+#header span{
+    height: 40px;
+    display: inline;
+    margin: 10px;
+    color: rgb(41, 61, 98);
+    font-weight: 600;
+    font-size: 30px;
+}

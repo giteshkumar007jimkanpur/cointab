@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="./img/favicon_ZBt_icon.ico"/>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/header_style.css" />
+        <title>Login</title>
+    </head>
+    <body>
+        <%- include('___header.ejs') %>
+        <div id="login_form_container">
+            <h3>Login Form</h3>
+            <form method="post" action="login" >
+                <input type="email" name="email" required placeholder="Enter your email ..." />
+                <input type="password" name="password" required placeholder="Enter your password ..." />
+                <input type="submit" value="Submit" id="btn_submit" />
+            </form>
+            <p>New User? Click <a href="/signup">here</a> to register</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon_ZBt_icon.ico" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/header_style.css" />
+    <title>Login</title>
+</head>
+
+<body>
+    <%- include('___header.ejs') %>
+        <div id="user_header">
+            <h1>User <%- users.length > 1 ? 'List' :'Info' %> <a href="/logout">Log Out</a></h1>
+            <ul id="users-list" style="list-style: none;">
+                <% for (user of users) { %>
+                    <li>
+                        <p>
+                            <%= user.name %> | <%= user.email %>
+                        </p>
+                    </li>
+                    <% } %>
+            </ul>
+        </div>
+</body>
+
+</html>
